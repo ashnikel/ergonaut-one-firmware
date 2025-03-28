@@ -25,7 +25,7 @@ layers:
   - L
   - ;
   - {t: '''', h: Ctrl}
-  - {t: '-', h: Alt}
+  - {t: (, h: Alt}
   - Z
   - X
   - C
@@ -36,7 +36,7 @@ layers:
   - ','
   - .
   - /
-  - {t: \, h: Alt}
+  - {t: ), h: Alt}
   - {t: ESCAPE, h: NUM}
   - {t: LEFT GUI, h: Shift}
   - {t: ␣, h: SYM}
@@ -68,7 +68,7 @@ layers:
   - '6'
   - .
   - {t: '-', h: Ctrl}
-  - {t: '=', h: Alt}
+  - {t: '-', h: Alt}
   - '1'
   - '2'
   - '3'
@@ -79,7 +79,7 @@ layers:
   - '2'
   - '3'
   - /
-  - Alt
+  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -111,7 +111,7 @@ layers:
   - →
   - Insert
   - {t: APP, h: Ctrl}
-  - Alt
+  - {t: '=', h: Alt}
   - KP 0
   - KP 1
   - KP 2
