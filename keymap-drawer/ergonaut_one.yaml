@@ -37,8 +37,8 @@ layers:
   - .
   - /
   - {t: ), h: Alt}
-  - {t: ESCAPE, h: NUM}
-  - {t: LEFT GUI, h: Shift}
+  - {t: LEFT GUI, h: NUM}
+  - {t: ESCAPE, h: Shift}
   - {t: ␣, h: SYM}
   - {t: ENTER, h: SYM}
   - {t: ↹, h: Shift}
