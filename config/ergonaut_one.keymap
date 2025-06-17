@@ -37,19 +37,19 @@
         lower_layer {
             display-name = "SYM";
             bindings = <
-&mt LGUI F1     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
-&mt LCTRL PLUS  &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT     &kp CARET     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PERIOD    &mt RCTRL MINUS
-&mt LALT MINUS  &kp N1        &kp N2        &kp N3        &kp N4        &kp N5        &kp N6        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &kp BACKSLASH
-                                            &trans        &trans        &trans        &trans        &trans        &trans
+&mt LGUI F1   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp PLUS        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp ASTERISK
+&mt LCTRL F1  &kp F2        &kp F3        &kp F4        &kp F5        &kp F6        &kp MINUS       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &mt RCTRL SLASH
+&mt LALT F7   &kp F8        &kp F9        &kp F10       &kp F11       &kp F12       &kp UNDERSCORE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT       &kp EQUAL
+                                          &trans        &trans        &trans        &trans          &trans        &trans
             >;
         };
 
         raise_layer {
             display-name = "NUM";
             bindings = <
-&mt LGUI F1      &kp F2           &kp F3     &kp F4     &kp F5     &kp F6       &kp F7      &kp F8                &kp F9                 &kp F10    &kp F11          &kp F12
-&mt LCTRL EQUAL  &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS  &kp LEFT    &kp DOWN              &kp UP                 &kp RIGHT  &kp INS          &mt RCTRL K_APP
-&mt LALT EQUAL   &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT   &caps_word  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PG_DN  &kp PAUSE_BREAK  &kp RALT
+&mt LGUI F1      &kp F2           &kp F3     &kp F4     &kp F5     &kp F6       &kp F7      &kp F8                &kp F9                 &kp F10    &kp F11        &kp F12
+&mt LCTRL EQUAL  &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS  &kp LEFT    &kp DOWN              &kp UP                 &kp RIGHT  &kp INS        &mt RCTRL K_APP
+&mt LALT EQUAL   &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT   &caps_word  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PG_DN  &kp BACKSLASH  &kp RALT
                                              &trans     &trans     &trans       &trans      &trans                &trans
             >;
         };
