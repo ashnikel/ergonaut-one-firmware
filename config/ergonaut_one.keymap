@@ -39,7 +39,7 @@
             bindings = <
 &mt LGUI F1   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp PLUS        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp ASTERISK
 &mt LCTRL F1  &kp F2        &kp F3        &kp F4        &kp F5        &kp F6        &kp MINUS       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &mt RCTRL SLASH
-&mt LALT F7   &kp F8        &kp F9        &kp F10       &kp F11       &kp F12       &kp UNDERSCORE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT       &kp EQUAL
+&mt LALT F7   &kp F8        &kp F9        &kp F10       &kp F11       &kp F12       &kp UNDERSCORE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT       &mt RIGHT_ALT EQUAL
                                           &trans        &trans        &trans        &trans          &trans        &trans
             >;
         };
