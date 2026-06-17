@@ -37,12 +37,12 @@ layers:
   - .
   - /
   - {t: ), h: Alt}
-  - {t: LEFT GUI, h: NUM}
+  - {t: LEFT GUI, h: NAV}
   - {t: ESCAPE, h: Shift}
   - {t: ␣, h: SYM}
   - {t: ENTER, h: SYM}
   - {t: ↹, h: Shift}
-  - {t: BACKSPACE, h: NUM}
+  - {t: BACKSPACE, h: NAV}
   SYM:
   - {t: F1, h: Gui}
   - '1'
@@ -86,17 +86,17 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  NUM:
+  NAV:
   - {t: F1, h: Gui}
   - F2
   - F3
   - F4
   - F5
   - F6
-  - F7
-  - F8
-  - F9
-  - F10
+  - Home
+  - Page Up
+  - Page Down
+  - End
   - F11
   - F12
   - {t: '=', h: Ctrl}
@@ -117,10 +117,10 @@ layers:
   - KP 2
   - KP 3
   - KP DOT
-  - Caps Word
-  - (
-  - )
-  - Page Down
+  - Ctl+←
+  - Ctl+→
+  - Ctl+BACKSPACE
+  - Ctl+DELETE
   - \
   - Alt
   - {type: held}
