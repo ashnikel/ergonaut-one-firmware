@@ -45,11 +45,11 @@ layers:
   - {t: BACKSPACE, h: NAV}
   SYM:
   - {t: F1, h: Gui}
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - +
   - '7'
   - '8'
@@ -88,17 +88,17 @@ layers:
   - {t: ▽, type: trans}
   NAV:
   - {t: F1, h: Gui}
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - Home
   - Page Up
   - Page Down
   - End
-  - F11
-  - F12
+  - ''
+  - ''
   - {t: '=', h: Ctrl}
   - KP MULTIPLY
   - KP 4
@@ -109,7 +109,7 @@ layers:
   - ↓
   - ↑
   - →
-  - Insert
+  - ''
   - {t: APP, h: Ctrl}
   - {t: '=', h: Alt}
   - KP 0
@@ -167,8 +167,8 @@ layers:
   - ''
   - Reset
   - {type: held}
-  - ''
+  - {t: ▽, type: trans}
   - {type: held}
-  - ''
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
