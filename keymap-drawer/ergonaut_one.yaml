@@ -97,8 +97,8 @@ layers:
   - Page Up
   - Page Down
   - End
-  - ''
-  - ''
+  - Alt+←
+  - Alt+→
   - {t: '=', h: Ctrl}
   - KP MULTIPLY
   - KP 4
