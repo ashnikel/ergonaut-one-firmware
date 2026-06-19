@@ -129,18 +129,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  ADJ:
+  SYS:
   - Boot
-  - '&studio_unlock'
-  - ''
-  - ''
-  - ''
-  - Caps Word
   - ''
   - ''
   - ''
   - ''
-  - '&studio_unlock'
+  - ''
+  - ''
+  - Out USB
+  - ''
+  - ''
+  - ''
   - Boot
   - BT CLR
   - BT 1
@@ -159,7 +159,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - Out BLE
   - ''
   - ''
   - ''
